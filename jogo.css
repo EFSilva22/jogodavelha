@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    background-color: black;
+    color: red;
+}
+
+#tabuleiro {
+    width: 600px;
+    overflow: auto;
+    background-color: black;
+
+}
+
+.container {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxTabuleiro {
+
+    background-image: url("../img/img.jpg");
+    width: 33.33%;
+    height: 180px;
+    border: 1px solid black;
+    float: left;
+    background-color: white;
+}
+
+.boxTabuleiro:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.imgTabuleiro {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.imgXis {
+    background-image: url('../img/xis.png');
+}
+
+.imgCircle {
+    background-image: url('../img/circulo.jpg');
+}
+
+h3 {
+    text-align: center;
+}
+
+.edition {
+    padding: 50px;
+    width: 382px;
+    height: 550px;
+}
